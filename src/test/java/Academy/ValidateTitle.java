@@ -23,7 +23,8 @@ public class ValidateTitle extends Base {
  log.info("Driver Initiated");
 		driver.get(prop.getProperty("url"));
 		log.info("Home Page Open");
-	}
+                log.info("Home Page Open2");
+       	}
 
 	@Test
 	public void basePagetitle() {
