@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-24T11:48:20 IST" name="Suite" finished-at="2022-04-24T11:50:17 IST" duration-ms="117043">
+    <groups>
+    </groups>
+    <test started-at="2022-04-24T11:48:20 IST" name="Validating Title " finished-at="2022-04-24T11:48:52 IST" duration-ms="31782">
+      <class name="Academy.ValidateTitle">
+        <test-method is-config="true" signature="tearup()[pri:0, instance:Academy.ValidateTitle@5cad8b7d]" started-at="2022-04-24T11:48:20 IST" name="tearup" finished-at="2022-04-24T11:48:50 IST" duration-ms="29489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+        <test-method signature="basePagetitle()[pri:0, instance:Academy.ValidateTitle@5cad8b7d]" started-at="2022-04-24T11:48:50 IST" name="basePagetitle" finished-at="2022-04-24T11:48:50 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePagetitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.ValidateTitle@5cad8b7d]" started-at="2022-04-24T11:48:51 IST" name="teardown" finished-at="2022-04-24T11:48:52 IST" duration-ms="1066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ValidateTitle -->
+    </test> <!-- Validating Title  -->
+    <test started-at="2022-04-24T11:48:52 IST" name="HomePage" finished-at="2022-04-24T11:49:42 IST" duration-ms="49959">
+      <class name="Academy.HomePage">
+        <test-method is-config="true" signature="tearup()[pri:0, instance:Academy.HomePage@d4ab71a]" started-at="2022-04-24T11:48:52 IST" name="tearup" finished-at="2022-04-24T11:48:55 IST" duration-ms="2977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@d4ab71a]" started-at="2022-04-24T11:48:55 IST" name="basePageNavigation" data-provider="getdata" finished-at="2022-04-24T11:49:21 IST" duration-ms="25565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[norestrictionuser.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[No Restrict user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@d4ab71a]" started-at="2022-04-24T11:49:21 IST" name="basePageNavigation" data-provider="getdata" finished-at="2022-04-24T11:49:42 IST" duration-ms="20501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrictionuser.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restriction user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.HomePage@d4ab71a]" started-at="2022-04-24T11:49:42 IST" name="teardown" finished-at="2022-04-24T11:49:42 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- HomePage -->
+    <test started-at="2022-04-24T11:49:42 IST" name="Validate Navigation Bar" finished-at="2022-04-24T11:50:17 IST" duration-ms="35163">
+      <class name="Academy.ValidateNavigation">
+        <test-method is-config="true" signature="tearup()[pri:0, instance:Academy.ValidateNavigation@438bad7c]" started-at="2022-04-24T11:49:42 IST" name="tearup" finished-at="2022-04-24T11:50:16 IST" duration-ms="34255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Academy.ValidateNavigation@438bad7c]" started-at="2022-04-24T11:50:16 IST" name="basePageNavigation" finished-at="2022-04-24T11:50:17 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.ValidateNavigation@438bad7c]" started-at="2022-04-24T11:50:17 IST" name="teardown" finished-at="2022-04-24T11:50:17 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ValidateNavigation -->
+    </test> <!-- Validate Navigation Bar -->
+  </suite> <!-- Suite -->
+</testng-results>

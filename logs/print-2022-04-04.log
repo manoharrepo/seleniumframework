@@ -1,0 +1,9 @@
+23:30:09.033 [main] INFO  resources.Base - Driver Initiated
+23:30:30.250 [main] INFO  resources.Base - Home Page Open
+23:30:30.362 [main] INFO  resources.Base - Test Fail
+23:30:55.126 [main] INFO  resources.Base - No Restrict user
+23:30:55.254 [main] INFO  resources.Base - Test Success
+23:31:14.495 [main] INFO  resources.Base - Restriction user
+23:31:14.613 [main] INFO  resources.Base - Test Success
+23:31:38.377 [main] INFO  resources.Base - Navigation bar displayed
+23:31:38.377 [main] INFO  resources.Base - ValidateNavigation

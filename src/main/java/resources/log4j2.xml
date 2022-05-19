@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE XML>
+<Configuration status="WARN">
+	<Properties>
+		<Property name="bashPath">./logs </Property>
+	</Properties>
+	<Appenders>
+		<RollingFile name="file" fileName="${bashPath}/print.log"
+			filePattern="${bashPath}/print-%d{yyyy-MM-dd}.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<SizeBasedTriggeringPolicy size="500" />
+		</RollingFile>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		 <Logger name="Academy.ValidateNavigation" level="trace" > 
+		 <AppenderRef ref="Console"/>
+		  </Logger>
+ <!-- additive = "false" -->
+		<Root level="trace"> 
+		<AppenderRef ref="file" /> 
+		</Root>
+	</Loggers>
+</Configuration>
